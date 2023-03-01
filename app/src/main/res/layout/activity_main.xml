@@ -57,6 +57,12 @@
         android:layout_below="@+id/etConfirm"
         android:layout_marginTop="20dp"/>
 
+    <RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/radio"
+    android:layout_below="@id/tvGender">
+
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,6 +86,7 @@
         android:layout_below="@+id/rBtn2"
         android:text="Others"
         android:textSize="20sp"/>
+    </RadioGroup>
 
     <Button
         android:layout_width="wrap_content"
@@ -87,7 +94,7 @@
         android:id="@+id/btnRegister"
         android:text="REGISTER"
         android:textSize="30sp"
-        android:layout_below="@+id/rBtn3"
+        android:layout_below="@+id/radio"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         />
